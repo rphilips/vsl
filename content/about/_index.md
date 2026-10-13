@@ -7,15 +7,15 @@ weight = 10000
 
 Deze pagina's tonen allerlei gegevens in verband met het schaakspel:
 
-- schaaknieuws
+schaaknieuws
 
-- puzzels
+puzzels
 
-- partijen
+partijen
 
-- lessen
+lessen
 
-- spelregels
+spelregels
 
 De officiële wbesite van de Vrijschaker Landegem kan je [hier](https://vrijschaker.be) vinden.
 
