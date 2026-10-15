@@ -17,7 +17,7 @@ lessen
 
 spelregels
 
-De officiële wbesite van de Vrijschaker Landegem kan je [hier](https://vrijschaker.be) vinden.
+De officiële website van de Vrijschaker Landegem kan je [hier](https://vrijschaker.be) vinden.
 
 
 
