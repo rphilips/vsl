@@ -16,7 +16,7 @@
 		
 			<atom:link href="http://localhost:1313/vsl/articles/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>articles/stockfish</title>
+				<title>Stockfish</title>
 				<link>http://localhost:1313/vsl/articles/stockfish/</link>
 				<pubDate>Sun, 18 Oct 2026 12:53:27 +0200</pubDate>
 				<guid>http://localhost:1313/vsl/articles/stockfish/</guid>

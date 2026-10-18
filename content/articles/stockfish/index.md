@@ -1,6 +1,6 @@
 +++
 date = '2026-10-18T12:53:27+02:00'
-title = 'articles/stockfish'
+title = 'Stockfish'
 weight = 9223372036640295400
 +++
 
