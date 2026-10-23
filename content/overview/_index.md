@@ -1,5 +1,5 @@
 +++
-date = '2026-10-22T19:04:29+02:00'
+date = '2026-10-23T14:17:25+02:00'
 title = 'Overzicht'
 featured_image = '/images/overview.jpg'
 weight = 10
@@ -9,6 +9,10 @@ weight = 10
 
 <h2>Oktober 2026</h2>
 
+<!--
+.link articles/russianschool/index.md
+-->
+[Soviet chess school]({{< relref "/articles/russianschool/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("articles/russianschool/index.md");'>(artikel)</span>
 <!--
 .link articles/royalstudy/index.md
 -->
