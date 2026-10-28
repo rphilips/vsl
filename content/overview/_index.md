@@ -1,5 +1,5 @@
 +++
-date = '2026-10-27T16:06:24+01:00'
+date = '2026-10-28T12:09:00+01:00'
 title = 'Overzicht'
 featured_image = '/images/overview.jpg'
 weight = 10
@@ -9,6 +9,10 @@ weight = 10
 
 <h2>Oktober 2026</h2>
 
+<!--
+.link articles/kane/index.md
+-->
+[De schaker genaamd Harry Kane]({{< relref "/articles/kane/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("articles/kane/index.md");'>(artikel)</span>
 <!--
 .link puzzles/rook2pawns/index.md
 -->
