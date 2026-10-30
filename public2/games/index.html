@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head><script src="/vsl/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=vsl/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Partijen | Start</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="De laatste hobby die je ooit nodig hebt …">
+    <meta name="generator" content="Hugo 0.169.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    <link rel="stylesheet" href="/vsl/ananke/css/main.css">
+    <script>
+  (function () {
+    "use strict";
+
+    
+    
+    function revealButtons() {
+      var buttons = document.querySelectorAll(".code-block .code-copy[hidden]");
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].hidden = false;
+      }
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", revealButtons);
+    } else {
+      revealButtons();
+    }
+
+    function flash(button) {
+      var label = button.querySelector(".code-copy-label");
+      var previous = label ? label.textContent : null;
+      button.classList.add("is-copied");
+      if (label) label.textContent = "Copied";
+      window.setTimeout(function () {
+        button.classList.remove("is-copied");
+        if (label && previous !== null) label.textContent = previous;
+      }, 2000);
+    }
+
+    function legacyCopy(text) {
+      var area = document.createElement("textarea");
+      area.value = text;
+      area.setAttribute("readonly", "");
+      area.style.position = "absolute";
+      area.style.left = "-9999px";
+      document.body.appendChild(area);
+      area.select();
+      var ok = false;
+      try {
+        ok = document.execCommand("copy");
+      } catch (e) {
+        ok = false;
+      }
+      document.body.removeChild(area);
+      return ok;
+    }
+
+    function copyFrom(button) {
+      var container = button.closest(".code-block");
+      if (!container) return;
+      var pre = container.querySelector("pre");
+      if (!pre) return;
+      var source = pre.querySelector("code") || pre;
+      var text = source.innerText;
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(
+          function () { flash(button); },
+          function () { if (legacyCopy(text)) flash(button); }
+        );
+      } else if (legacyCopy(text)) {
+        flash(button);
+      }
+    }
+
+    document.addEventListener("click", function (event) {
+      var button = event.target.closest(".code-copy");
+      if (button) copyFrom(button);
+    });
+  })();
+</script>
+
+    
+      
+
+    
+
+    
+    
+      <link href="/vsl/games/index.xml" rel="alternate" type="application/rss+xml" title="Start" />
+      <link href="/vsl/games/index.xml" rel="feed" type="application/rss+xml" title="Start" />
+      
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/vsl/games/">
+    
+
+    
+    
+    <meta property="og:url" content="http://localhost:1313/vsl/games/">
+	<meta property="og:site_name" content="Start">
+	<meta property="og:title" content="Partijen">
+	<meta property="og:description" content="De laatste hobby die je ooit nodig hebt …">
+	<meta property="og:locale" content="nl">
+	<meta property="og:type" content="website">
+
+	<meta itemprop="name" content="Partijen">
+	<meta itemprop="description" content="De laatste hobby die je ooit nodig hebt …">
+	<meta itemprop="datePublished" content="2026-02-21T17:16:33+01:00">
+	<meta itemprop="dateModified" content="2026-02-21T17:16:33+01:00">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Partijen">
+	<meta name="twitter:description" content="De laatste hobby die je ooit nodig hebt …">
+
+	
+  </head><body class="ma0 avenir bg-near-white development is-section is-section">
+
+  
+  
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/vsl/images/games.jpg');">
+    
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/vsl/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Start
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/overview/" title="Overzicht pagina">
+              Overzicht
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/sessions/" title="Sessies pagina">
+              Sessies
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/articles/" title="Artikelen pagina">
+              Artikelen
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/games/" title="Partijen pagina">
+              Partijen
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/puzzles/" title="Puzzels pagina">
+              Puzzels
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/rules/" title="Regels pagina">
+              Regels
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/about/" title="Betreft … pagina">
+              Betreft …
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/contact/" title="Contact pagina">
+              Contact
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
+          Partijen
+        </h1>
+        
+      </div>
+    </div>
+  </header>
+
+<main class="pb7" role="main">
+  
+  
+
+  <article class="pa3 pa4-ns nested-copy-line-height">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links mid-gray"></section>
+    <section class="flex-ns mt5 flex-wrap justify-around">
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Partijen</span>
+    
+      <time class="f6 db" datetime="2026-10-27T15:10:55+01:00">oktober 27, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/games/rubinstein1/" class="link black dim">
+        Erich Cohn versus Akiba Rubinstein
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.image rubinstein.jpg
+-->
+<p><img src="/vsl/games/rubinstein1/rubinstein.jpg" alt=""></p>
+<p><a href="https://nl.wikipedia.org/wiki/Akiba_Rubinstein">Akiba Kiwelowicz Rubinstein</a> was in de periode 1907-1922 een van de sterkste spelers op het wereldtoneel. In 1907, 1909 en 1911 werd hij kampioen van Rusland.</p>
+<p>Rubinstein had echter pech: door de eerste wereldoorlog kon hij nooit spelen voor de wereldtitel. Hij was ook mentaal zwak.</p>
+<p>Door de beide wereldoorlogen heeft het schaken hem financieel niet veel opgebracht. Hij kwam niet graag onder de mensen, werd op den duur mensenschuw en eindigde zijn leven in 1961 in een sanatorium in België waarvoor hij de kosten niet zelf kon opbrengen: er werd een fonds voor hem opgericht. België was ook het land waar hij tijdens de Tweede Wereldoorlog verbleef.</p>
+    </div>
+    <a href="/vsl/games/rubinstein1/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Partijen</span>
+    
+      <time class="f6 db" datetime="2026-10-18T11:37:38+02:00">oktober 18, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/games/douden/" class="link black dim">
+        Zo d&#39;ouden schaakten
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.image tarlas.jpg
+-->
+<p><img src="/vsl/games/douden/tarlas.jpg" alt=""></p>
+<!--
+.image match.jpg
+-->
+<p><img src="/vsl/games/douden/match.jpg" alt=""></p>
+<p>Als je echt wil leren schaken, bestudeer dan de partijen van de grootmeesters uit het begin van de twintigste eeuw. Let wel, dit is niet mijn mening, dit is de mening van Magnus Carlsen. Er is geen grootmeester zo belezen is in de vroege schaakliteratuur als Magnus.</p>
+<p>De partij die we hier tonen is een strijd tussen 2 giganten: met Wit hebben we <a href="https://nl.wikipedia.org/wiki/Emanuel_Lasker">Emmanuel Lasker</a>, de tweede wereldkampioen, met Zwart speelt <a href="https://nl.wikipedia.org/wiki/Siegbert_Tarrasch">Siegbert Tarrasch</a>, de man die zijn volk leerde schaken.</p>
+    </div>
+    <a href="/vsl/games/douden/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Partijen</span>
+    
+      <time class="f6 db" datetime="2026-09-29T16:30:00+02:00">september 29, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/games/weiyiolympiad/" class="link black dim">
+        Game of The Olympiad! || Abdimalik Abdisalimov vs Wei Yi
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.image wei.jpg
+-->
+<p><img src="/vsl/games/weiyiolympiad/wei.jpg" alt=""></p>
+<p><a href="https://nl.wikipedia.org/wiki/Wei_Yi">Wei Yi</a> is een speler die <strong>altijd</strong> de aanval zoekt.</p>
+<p>Terwijl de meeste spelers in de laatste ronde van de de Olympiade te Uzbekistan het al lang welletjes vonden, ontbondt Wei Yi zijn duivels:</p>
+<!--
+.yt LFyoROLP_pU
+-->
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/LFyoROLP_pU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
+
+<p>Je kan de video ook bekijken op <a href="https://www.dropbox.com/scl/fi/bmfcc6bx398cg7mhiwds7/Game_of_The_Olympiad_Abdimalik_Abdisalimov_vs_We.mp4?rlkey=e1ecg0xujylbrssaw32pf6x5d&amp;dl=0">dropbox</a></p>
+    </div>
+    <a href="/vsl/games/weiyiolympiad/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Partijen</span>
+    
+      <time class="f6 db" datetime="2026-09-20T16:00:56+02:00">september 20, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/games/sindarov46olympiad/" class="link black dim">
+        Sindarov on Fire
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>Sindarov speelt voor Uzbekistan op de 46e Olympiade.</p>
+<p>Hij speelt ongelofelijk sterk en &hellip; mooi!</p>
+<p>Bekijk de finish van deze partij:</p>
+<!--
+.yt dgMcZ9oOHgs
+-->
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/dgMcZ9oOHgs?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
+
+<p>Je kan de video ook bekijken op <a href="https://www.dropbox.com/scl/fi/ide5ii57l5v7oniw5sqqh/Prepare_The_Brilliancy_Prize_Diego_Quillas_vs_Ja.mp4?rlkey=944241vq74eje0xdn59cjoskt&amp;dl=0">dropbox</a></p>
+<!--
+.game game.pgn
+-->
+<!-- Game begin -->
+<link href="/vsl/js/lichess/pgn/lichess-pgn-viewer.css" type="text/css" rel="stylesheet" />
+<style>
+    body {
+         background: var(--demo-bg, #161512);
+      --board-color: #f1e14e;
+      margin: 0;
+    }
+</style>
+<div id="game" data-pgn="[Event &#34;46th FIDE Chess Olympiad 2026&#34;]&#10;[Site &#34;Chess.com&#34;]&#10;[Date &#34;2026.09.17&#34;]&#10;[Round &#34;02&#34;]&#10;[White &#34;Flores Quillas, Diego Saul Rodri&#34;]&#10;[Black &#34;Sindarov, Javokhir&#34;]&#10;[Result &#34;0-1&#34;]&#10;[WhiteElo &#34;2398&#34;]&#10;[BlackElo &#34;2778&#34;]&#10;[TimeControl &#34;40/5400+30:1800+30&#34;]&#10;[Link &#34;https://www.chess.com/events/2026-fide-chess-olympiad-open/02/Flores_Quillas_Diego_Saul_Rodri-Sindarov_Javokhir&#34;]&#10;&#10;1. e4 {[%clk 1:30:50]} 1... c5 {[%clk 1:30:44]} 2. Nf3 {[%clk 1:31:14]} 2... e6&#10;{[%clk 1:31:03]} 3. b3 {[%clk 1:31:39]} 3... b6 {[%clk 1:27:07]} 4. Bb2 {[%clk&#10;1:30:37]} 4... Bb7 {[%clk 1:26:52]} 5. Nc3 {[%clk 1:27:52]} 5... Nc6 {[%clk&#10;1:24:27]} 6. g3 {[%clk 1:22:33]} 6... Nf6 {[%clk 1:19:33]} 7. Bg2 {[%clk&#10;1:21:17]} 7... Be7 {[%clk 1:19:26]} 8. O-O {[%clk 1:21:07]} 8... O-O {[%clk&#10;1:19:45]} 9. d4 {[%clk 1:15:57]} 9... cxd4 {[%clk 1:14:40]} 10. Nxd4 {[%clk&#10;1:16:11]} 10... Nxd4 {[%clk 1:08:56]} 11. Qxd4 {[%clk 1:16:35]} 11... Qc7 {[%clk&#10;1:09:13]} 12. e5 {[%clk 0:56:46]} 12... Bxg2 {[%clk 1:08:04]} 13. Kxg2 {[%clk&#10;0:57:12]} 13... Ne8 {[%clk 1:05:56]} 14. Ne4 {[%clk 0:42:42]} 14... Qc6 {[%clk&#10;1:02:13]} 15. f3 {[%clk 0:41:07]} 15... Qxc2+ {[%clk 0:57:56]} 16. Rf2 {[%clk&#10;0:39:35]} 16... Qc6 {[%clk 0:58:16]} 17. Rc1 {[%clk 0:39:55]} 17... Qb7 {[%clk&#10;0:58:41]} 18. Rfc2 {[%clk 0:38:12]} 18... Rd8 {[%clk 0:55:36]} 19. Nd6 {[%clk&#10;0:28:17]} 19... Qa6 {[%clk 0:51:06]} 20. a4 {[%clk 0:20:32]} 20... Bg5 {[%clk&#10;0:36:35]} 21. f4 {[%clk 0:16:14]} 21... Be7 {[%clk 0:36:29]} 22. Kh3 {[%clk&#10;0:09:15]} 22... Nxd6 {[%clk 0:22:54]} 23. exd6 {[%clk 0:09:42]} 23... Bf6 {[%clk&#10;0:23:21]} 24. Qe4 {[%clk 0:08:55]} 24... Bxb2 {[%clk 0:22:26]} 25. Rxb2 {[%clk&#10;0:09:23]} 25... Rc8 {[%clk 0:22:13]} 26. Rc7 {[%clk 0:08:58]} 26... Qf1+ {[%clk&#10;0:19:44]} 27. Rg2 {[%clk 0:05:36]} 27... f5 {[%clk 0:17:43]} 28. Qc2 {[%clk&#10;0:05:12]} 28... Rcd8 {[%clk 0:12:02]} 29. Qe2 {[%clk 0:03:19]} 29... Rf6 {[%clk&#10;0:11:08]} 30. Kh4 {[%clk 0:02:10]} 30... Rh6+ {[%clk 0:11:07]} 31. Kg5 {[%clk&#10;0:02:38]} 31... Kf7 {[%clk 0:04:40]} 32. Qxf1 {[%clk 0:02:07]} 32... Rh3 {[%clk&#10;0:04:45]} 0-1">&#160;</div>
+<script type="module">
+    import { ViewPGN } from "/vsl/js/lichess/pgn/one.js";
+    ViewPGN("", "game");
+</script>
+<!-- Game end -->
+    </div>
+    <a href="/vsl/games/sindarov46olympiad/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Partijen</span>
+    
+      <time class="f6 db" datetime="2026-09-19T18:29:10+02:00">september 19, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/games/annsophie2/" class="link black dim">
+        Partij tegen Ann-Sophie (2)
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>Men vroeg aan <a href="https://nl.wikipedia.org/wiki/Jan_Timman">Jan Timman</a> wat de beste methode was om jonge, veel belovende, schakers aan te pakken.</p>
+<p>Jan Timman antwoordde: &ldquo;Wel, je moet ze direct eens goed laten voelen wie de baas is. Dan zit je daarna voor gans je carrière goed!&rdquo;.</p>
+<p>Ann-Sophie is zo&rsquo;n jonge, veel belovende schaakster. Ze eens goed aanpakken is echter gemakkelijk gezegd: in de volgende partij toont ze de lange weg die ze op korte tijd heeft afgelegd. Ik moest mijn beste beentje voorzetten om niet ten onder te gaan.</p>
+    </div>
+    <a href="/vsl/games/annsophie2/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Partijen</span>
+    
+      <time class="f6 db" datetime="2026-09-02T11:02:14+02:00">september 2, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/games/titledtuesday/" class="link black dim">
+        Titled Tuesday: Simon Williams vs GothamChess
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>Een duel tussen twee bekende Internet streamers.</p>
+<!--
+.image sw.jpg
+-->
+<p><img src="/vsl/games/titledtuesday/sw.jpg" alt=""></p>
+<p><a href="https://nl.wikipedia.org/wiki/Simon_Williams">Simon Williams</a> is mijn absoluut favoriete chess-streamer: zijn kleurrijke verschijning aangevuld met zijn bizarre openingskeuze zorgen steeds voor spektakel.
+Vergis u niet: hij is wel degelijk een zeer sterke schaker.</p>
+<!--
+.image gc.jpg
+-->
+<p><img src="/vsl/games/titledtuesday/gc.jpg" alt=""></p>
+<p><a href="https://nl.wikipedia.org/wiki/Levy_Rozman">Levy Rozman</a>, beter gekend als Gotham Chess, is een Internationaal meester en misschien wel de best verdienende schaker ooit: met meer dan 7 miljoen abonnees op zijn YouTube kanaal zit hij gebeiteld!</p>
+    </div>
+    <a href="/vsl/games/titledtuesday/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Partijen</span>
+    
+      <time class="f6 db" datetime="2026-08-29T16:42:06+02:00">augustus 29, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/games/bottal6/" class="link black dim">
+        De legendarische zesde partij (3)
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.image image.jpg
+-->
+<p><img src="/vsl/games/bottal6/image.jpg" alt=""></p>
+<p>De zesde partij van het Wereldkampioenschap schaken in 1960 tussen <a href="https://nl.wikipedia.org/wiki/Michail_Botvinnik">Mikhail Botvinnik</a> (wit) en <a href="https://nl.wikipedia.org/wiki/Michail_Tal">Mikhail Tal</a> (zwart) is een van de beroemdste en meest legendarische schaakpartijen uit de geschiedenis. Tal speelde met zwart en bracht een iconisch, vroeg stukoffer in de Koningsindische Verdediging.</p>
+<p><strong>Het Belang en het Verloop van de Partij</strong></p>
+<p><strong>De Strijd</strong>: Botvinnik was de methodieke, logische wereldkampioen. Tal stond bekend om zijn wilde, intuitieve combinaties en offers.</p>
+    </div>
+    <a href="/vsl/games/bottal6/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Partijen</span>
+    
+      <time class="f6 db" datetime="2026-08-29T16:13:16+02:00">augustus 29, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/games/magnusnepo6/" class="link black dim">
+        De legendarische zesde partij (2)
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.image image.jpg
+-->
+<p><img src="/vsl/games/magnusnepo6/image.jpg" alt=""></p>
+<p>De 6e partij tussen Fischer en Spasski was legendarisch.</p>
+<p>Maar wat te denken van de <a href="https://en.wikipedia.org/wiki/Carlsen_versus_Nepomniachtchi,_World_Chess_Championship_2021,_Game_6">6e partij tussen Carlsen en Nepomniachtchi</a> ?</p>
+<p>Deze partij van 136 zetten was ook de langste in tijd: het name zo maar eventjes 7 uur en 45 minuten (de partij eindigde na middernacht) vooraleer de regerende wereldkampioen won van zijn Russische uitdager.</p>
+<p>In de daarop volgende partijen stortte de uitdager volledig in en verloor uiteindelijk de match met 7½–3½</p>
+    </div>
+    <a href="/vsl/games/magnusnepo6/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Partijen</span>
+    
+      <time class="f6 db" datetime="2026-08-23T15:09:29+02:00">augustus 23, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/games/game6/" class="link black dim">
+        De legendarische zesde partij (1)
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.image sf.jpg
+-->
+<p><img src="/vsl/games/game6/sf.jpg" alt=""></p>
+<p>De zesde partij in de legendarische match tussen Spassky en Fischer tijdens het <a href="https://en.wikipedia.org/wiki/World_Chess_Championship_1972">weledkampioenschap schaken van 1972</a>
+werd legendarisch. Het was niet alleen een prachtige partij maar het was ook een voorbeeld van sportiviteit: toen Fischer won en het publiek applaudisseerde, begon ook Spasski te applaudisseren.</p>
+<p>Uit <a href="https://www.chess.com/article/view/50-year-anniversary-fischer-spassky-game-6">chess.com</a></p>
+<i>
+"""
+The sixth game, described by GM Bobby Fischer as his best game in the match, was likely the major turning point of the 1972 World Chess Championship. The challenger, who started the match trailing by two points, began to take control. Losing the first game and then forfeiting the second, Fischer returned to win game three, draw game four, and win game five to tie the score. After winning the unforgettable game featured in this article, the American grandmaster took the lead for the first time in the match.
+<p>Fischer was on the precipice of a sensational and unbelievable comeback. Both of his wins came with the black pieces—a rarity in a world championship match. Spassky&rsquo;s play had begun to show signs of weakness, angst, and a decline in the confidence he exuded in the early rounds. With the score now level, the match had begun anew in a sense—but Fischer was on the upswing, having just won game five. With the white pieces in game six, a victory would come at a critical moment psychologically. The rest, as they say, is history.</p>
+<p>A New Opening
+Fischer, who had almost exclusively played 1.e4 during his career, famously said that this first move is &ldquo;best by test.&rdquo; His approximately 750 tournament games by the 1972 match had confirmed his perspective, so when he opened this game with the English Opening (1.c4), it shocked both the roughly 1,600-person audience in Laugardalsholl, where they played, and the world watching. Note that original footage of this game would not be captured as they played without cameras in the main playing hall.
+&quot;&quot;&quot;
+</i>
+    </div>
+    <a href="/vsl/games/game6/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Partijen</span>
+    
+      <time class="f6 db" datetime="2026-08-13T10:35:31+02:00">augustus 13, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/games/vete/" class="link black dim">
+        Niet de beste vrienden
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>Hans Niemann</p>
+<!--
+.image hans.jpg
+-->
+<p><img src="/vsl/games/vete/hans.jpg" alt=""></p>
+<p>Magnus Carlsen</p>
+<!--
+.image magnus.jpg
+-->
+<p><img src="/vsl/games/vete/magnus.jpg" alt=""></p>
+<p><a href="https://nl.wikipedia.org/wiki/Hans_Niemann">Hans Niemann</a> en <a href="https://nl.wikipedia.org/wiki/Magnus_Carlsen">Magnus Carlsen</a> zijn niet bepaald vrienden.</p>
+<p>Het online schaakplatform Chess.com schorste Niemann tijdelijk tweemaal wegens vals spel, omdat hij zich door een computer zou hebben laten bijstaan. De eerste keer was toen hij 12 jaar oud was. De tweede keer was hij zestien jaar en net uit huis. Hij wilde van zijn Youtube-streams kunnen leven en meende daarvoor een groter publiek te kunnen trekken als hij tegen sterkere schakers zou spelen. Om dit te bewerkstelligen moest zijn rating opgekrikt worden en dat deed hij door in een aantal partijen vals te spelen. In een interview in september 2022 zei hij over die tweede keer: &ldquo;Dat was mijn grootste vergissing en ik schaam mij ervoor&rdquo;.</p>
+    </div>
+    <a href="/vsl/games/vete/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+    </section>
+    
+		<ul class="pagination pagination-default">
+			<li class="page-item disabled">
+				<a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
+			</li>
+		<li class="page-item disabled">
+			<a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
+		</li>
+			<li class="page-item active">
+				<a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
+			</li>
+			<li class="page-item">
+				<a href="/vsl/games/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+			</li>
+		<li class="page-item">
+			<a href="/vsl/games/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+		</li>
+			<li class="page-item">
+				<a href="/vsl/games/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+			</li>
+		</ul></article>
+</main><footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/vsl/" >
+    &copy;  Vrijschaker Landegem 2026 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

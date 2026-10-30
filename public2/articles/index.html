@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head><script src="/vsl/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=vsl/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Artikelen | Start</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="De laatste hobby die je ooit nodig hebt …">
+    <meta name="generator" content="Hugo 0.169.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    <link rel="stylesheet" href="/vsl/ananke/css/main.css">
+    <script>
+  (function () {
+    "use strict";
+
+    
+    
+    function revealButtons() {
+      var buttons = document.querySelectorAll(".code-block .code-copy[hidden]");
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].hidden = false;
+      }
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", revealButtons);
+    } else {
+      revealButtons();
+    }
+
+    function flash(button) {
+      var label = button.querySelector(".code-copy-label");
+      var previous = label ? label.textContent : null;
+      button.classList.add("is-copied");
+      if (label) label.textContent = "Copied";
+      window.setTimeout(function () {
+        button.classList.remove("is-copied");
+        if (label && previous !== null) label.textContent = previous;
+      }, 2000);
+    }
+
+    function legacyCopy(text) {
+      var area = document.createElement("textarea");
+      area.value = text;
+      area.setAttribute("readonly", "");
+      area.style.position = "absolute";
+      area.style.left = "-9999px";
+      document.body.appendChild(area);
+      area.select();
+      var ok = false;
+      try {
+        ok = document.execCommand("copy");
+      } catch (e) {
+        ok = false;
+      }
+      document.body.removeChild(area);
+      return ok;
+    }
+
+    function copyFrom(button) {
+      var container = button.closest(".code-block");
+      if (!container) return;
+      var pre = container.querySelector("pre");
+      if (!pre) return;
+      var source = pre.querySelector("code") || pre;
+      var text = source.innerText;
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(
+          function () { flash(button); },
+          function () { if (legacyCopy(text)) flash(button); }
+        );
+      } else if (legacyCopy(text)) {
+        flash(button);
+      }
+    }
+
+    document.addEventListener("click", function (event) {
+      var button = event.target.closest(".code-copy");
+      if (button) copyFrom(button);
+    });
+  })();
+</script>
+
+    
+      
+
+    
+
+    
+    
+      <link href="/vsl/articles/index.xml" rel="alternate" type="application/rss+xml" title="Start" />
+      <link href="/vsl/articles/index.xml" rel="feed" type="application/rss+xml" title="Start" />
+      
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/vsl/articles/">
+    
+
+    
+    
+    <meta property="og:url" content="http://localhost:1313/vsl/articles/">
+	<meta property="og:site_name" content="Start">
+	<meta property="og:title" content="Artikelen">
+	<meta property="og:description" content="De laatste hobby die je ooit nodig hebt …">
+	<meta property="og:locale" content="nl">
+	<meta property="og:type" content="website">
+
+	<meta itemprop="name" content="Artikelen">
+	<meta itemprop="description" content="De laatste hobby die je ooit nodig hebt …">
+	<meta itemprop="datePublished" content="2026-02-21T17:16:33+01:00">
+	<meta itemprop="dateModified" content="2026-02-21T17:16:33+01:00">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Artikelen">
+	<meta name="twitter:description" content="De laatste hobby die je ooit nodig hebt …">
+
+	
+  </head><body class="ma0 avenir bg-near-white development is-section is-section">
+
+  
+  
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/vsl/images/articles.png');">
+    
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/vsl/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Start
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/overview/" title="Overzicht pagina">
+              Overzicht
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/sessions/" title="Sessies pagina">
+              Sessies
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/articles/" title="Artikelen pagina">
+              Artikelen
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/games/" title="Partijen pagina">
+              Partijen
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/puzzles/" title="Puzzels pagina">
+              Puzzels
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/rules/" title="Regels pagina">
+              Regels
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/about/" title="Betreft … pagina">
+              Betreft …
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/contact/" title="Contact pagina">
+              Contact
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
+          Artikelen
+        </h1>
+        
+      </div>
+    </div>
+  </header>
+
+<main class="pb7" role="main">
+  
+  
+
+  <article class="pa3 pa4-ns nested-copy-line-height">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links mid-gray"></section>
+    <section class="flex-ns mt5 flex-wrap justify-around">
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Artikelen</span>
+    
+      <time class="f6 db" datetime="2026-10-30T15:13:56+01:00">oktober 30, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/articles/kasparovtrains/" class="link black dim">
+        Hoe trainde Kasparov?
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.image train.jpg
+-->
+<p><img src="/vsl/articles/kasparovtrains/train.jpg" alt=""></p>
+<p>Kasparov had een unieke manier van trainen: hij speelde om het wereldkampioenschap, stond 5-0 achter tegen Karpov en besloot toen op remise te spelen totdat hij het kon!</p>
+<!--
+.yt I1nFSbWKrI0
+-->
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/I1nFSbWKrI0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
+
+<p>Je kan de video ook bekijken op <a href="https://www.dropbox.com/scl/fi/lyk8md6epp68b33aabhtu/How_Kasparov_Really_Trained_I1nFSbWKrI0.mp4?rlkey=h3l9dx21g017d2dx3m6nxj9yz&amp;dl=0">dropbox</a></p>
+    </div>
+    <a href="/vsl/articles/kasparovtrains/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Artikelen</span>
+    
+      <time class="f6 db" datetime="2026-10-30T10:21:57+01:00">oktober 30, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/articles/salesforce/" class="link black dim">
+        Het Fide 2026 wereldkampioenschap
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.image fide.png
+-->
+<p><img src="/vsl/articles/salesforce/fide.png" alt=""></p>
+<p>Vanaf 22 november 2026 tot 12 december 2026 wordt het wereldkampioenschap beslecht tussen regerend wereldkampioen <a href="https://nl.wikipedia.org/wiki/Dommaraju_Gukesh">Gukesh Dommaraju</a> en uitdager <a href="https://nl.wikipedia.org/wiki/Javohir_Sindarov">Javokhir Sindarov</a>.</p>
+<p>In 14 partijen klassiek schaak nemen deze 20-jarigen het tegen elkaar op.</p>
+<p>Uit de <a href="https://worldchampionship.fide.com/">site van FIDE</a>:</p>
+<p>&quot;&quot;&quot;
+﻿FIDE is pleased to announce the regulations for the Salesforce FIDE World Championship Match 2026, confirming the venue, format, schedule, and prize distribution for the meeting between reigning World Champion Grandmaster Gukesh D and his challenger, Grandmaster Javokhir Sindarov. The match will be held at the Fondation Martin Bodmer in Cologny, Geneva, Switzerland, from 22 November to 12 December 2026, bringing a World Championship match back to Switzerland for the first time since Brissago in 2004.</p>
+    </div>
+    <a href="/vsl/articles/salesforce/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Artikelen</span>
+    
+      <time class="f6 db" datetime="2026-10-30T10:21:57+01:00">oktober 30, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/articles/howgames/" class="link black dim">
+        Hoe selecteer ik partijen ?
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.image image.jpg
+-->
+<p><img src="/vsl/articles/howgames/image.jpg" alt=""></p>
+<p>Onlang kreeg ik van Stijn de vraag: &ldquo;<em>Hoe selecteer je partijen om les te geven?</em>&rdquo;
+Schaakpartijen selecteren met de bedoeling om daar les over te geven is iets anders dan schaakpartijen kiezen die een hoge artistieke waarde hebben.</p>
+<p>Het uitgangspunt is natuurlijk het <strong>thema van de les</strong>.</p>
+<p>Ik kies partijen via 2 methoden:</p>
+<p>Ik volg vrij nauwgezet de live-uitzenden (op YouTube en chess.com) van tornooien. Meestal worden deze van uitmuntende commentaar voorzien door mensen zoals Svidler, Polgar, Leko, Seirawan. Praktisch in elke partij leer ik iets nieuws of wordt bestaande kennis dieper. Het nadeel van deze methode is wel dat het steeds partijen betreft die gaan tussen hedendaagse grootmeesters. &hellip; En deze vind ik - als les - minder interessant: ze zijn gewoon te complex.</p>
+    </div>
+    <a href="/vsl/articles/howgames/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Artikelen</span>
+    
+      <time class="f6 db" datetime="2026-10-28T11:44:11+01:00">oktober 28, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/articles/kane/" class="link black dim">
+        De schaker genaamd Harry Kane
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.image kane.jpg
+-->
+<p><img src="/vsl/articles/kane/kane.jpg" alt=""></p>
+<p><a href="https://nl.wikipedia.org/wiki/Harry_Kane">Harry Kane</a> is een absolute top-voetballer die het in alle competities waar maakt.</p>
+<p>De volgende tekst is van Peter Vandenbrempt en komt uit <a href="sporza.be">Sporza</a>:</p>
+<p>&quot;&quot;&quot;
+<strong>&ldquo;Kane beheerst het hele palet&rdquo;</strong></p>
+<p>Kane is een beetje een atypische winnaar. Vaak worden de artiesten beloond, zoals Messi, Ronaldo &hellip; Lamine Yamal zal de komende jaren ook wel nog opduiken.</p>
+<p>Hij is geen tovenaar aan de bal, hij is ook geen razendsnelle spits zoals Kylian Mbappé, maar Kane is momenteel misschien wel de meest complete speler ter wereld. Hij beheerst eigenlijk het hele palet.</p>
+    </div>
+    <a href="/vsl/articles/kane/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Artikelen</span>
+    
+      <time class="f6 db" datetime="2026-10-23T14:08:55+02:00">oktober 23, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/articles/russianschool/" class="link black dim">
+        Soviet chess school
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.image school.jpg
+-->
+<p><img src="/vsl/articles/russianschool/school.jpg" alt=""></p>
+<p>De <a href="https://en.wikipedia.org/wiki/Soviet_chess_school">Soviet chess school</a> was legendarisch!</p>
+<p>Onder leiding van de <em>patriarch</em>  <a href="https://en.wikipedia.org/wiki/Mikhail_Botvinnik">Mikhail Botvinnik</a> werd een selectie gemaakt van het Sovjet-Russisch schaaktalent.</p>
+<p>In de Botwinnik school kregen deze dan de kans om zichzelf te vervolmaken. Stdenten waren o.a. Karpov en Kasparov.</p>
+<p>In het volgende filmpje krijg je de doordachte insteek van Peter Svidler.</p>
+<!--
+.yt 9eTelBNfv4Y
+-->
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/9eTelBNfv4Y?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
+
+<p>Je kan de video ook bekijken op <a href="https://www.dropbox.com/scl/fi/k95d1d189y82zn78zexch/The_Russian_School_of_Chess_How_the_USSR_and_Rus.mp4?rlkey=cw1y7scqot0qezcvkjtic670v&amp;dl=0">dropbox</a></p>
+    </div>
+    <a href="/vsl/articles/russianschool/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Artikelen</span>
+    
+      <time class="f6 db" datetime="2026-10-22T17:34:45+02:00">oktober 22, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/articles/royalstudy/" class="link black dim">
+        The Royal Study
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.image royal.jpg
+-->
+<p><img src="/vsl/articles/royalstudy/royal.jpg" alt=""></p>
+<p>Kerstsmis en Nieuwjaar komen er aan!</p>
+<p>Tijd om jezelf te belonen met een mooi geschenk.</p>
+<p>Deze puzzel is mooi en leerrijk tegelijk.</p>
+<p>In de onderstaande video kun je zien hoe een en ander in elkaar zit.</p>
+<p>Ik heb mijn exemplaar bestelt in Spanje maar je kan ook andere plaatsen vinden.</p>
+<!--
+.yt 9PY5n2_ThE0
+-->
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/9PY5n2_ThE0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
+
+<p>Je kan de video ook bekijken op <a href="https://www.dropbox.com/scl/fi/dwha6yuaagz5vpugdl53k/HAN_CREADO_EL_AJEDREZ_MAS_ADICTIVO_DE_LA_HISTORI.mp4?rlkey=a0tp40fch57ylakg63b6g648u&amp;dl=0">dropbox</a></p>
+    </div>
+    <a href="/vsl/articles/royalstudy/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Artikelen</span>
+    
+      <time class="f6 db" datetime="2026-10-21T11:58:30+02:00">oktober 21, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/articles/sleep/" class="link black dim">
+        Het belang van een goede nachtrust
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.image image.jpg
+-->
+<p><img src="/vsl/articles/sleep/image.jpg" alt=""></p>
+<p><a href="https://nl.wikipedia.org/wiki/Vidit_Santosh_Gujrathi">Vidit Santosh Gujrathi</a> is één van de meest aimabele grootmeesters van het circuit. De Indische topschaker - op foto met zijn echtgenote Nidhi Kataria, geen schaakster ;-) - is nooit te beroerd om advies te geven.</p>
+<p>In dit filmpje spreekt hij over het belang van een goede nachtrust.</p>
+<!--
+.yt AJfgXCRVqZs
+-->
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/AJfgXCRVqZs?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
+
+<p>Je kan de video ook bekijken op <a href="https://www.dropbox.com/scl/fi/yj72rxq4emby39krbffb3/Why_Grandmasters_Can_t_Skip_Sleep_AJfgXCRVqZs.mp4?rlkey=9cvx2wxh6hxybw8pccmk37arj&amp;dl=0">dropbox</a></p>
+    </div>
+    <a href="/vsl/articles/sleep/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Artikelen</span>
+    
+      <time class="f6 db" datetime="2026-10-21T11:45:04+02:00">oktober 21, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/articles/anandmagnus/" class="link black dim">
+        Eerlijke Anand/Heimelijke Carlsen
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.image ca.jpg
+-->
+<p><img src="/vsl/articles/anandmagnus/ca.jpg" alt=""></p>
+<p>Een gouden raad:</p>
+<p>Geloof een schaakspeler zoals je een duivenmelker gelooft.
+Schakers houden altijd wel iets achter de hand.</p>
+<!--
+.yt jZnJczn1tys
+-->
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/jZnJczn1tys?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
+
+<p>Je kan de video ook bekijken op <a href="https://www.dropbox.com/scl/fi/rl5jchncy7urhib4843eq/Honest_Anand_Vs_Cunning_Magnus_jZnJczn1tys.mp4?rlkey=yeqiahm1mxwe5pu8yjq5knp89&amp;dl=0">dropbox</a></p>
+    </div>
+    <a href="/vsl/articles/anandmagnus/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Artikelen</span>
+    
+      <time class="f6 db" datetime="2026-10-18T12:53:27+02:00">oktober 18, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/articles/stockfish/" class="link black dim">
+        Stockfish
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.image stock.jpg
+-->
+<p><img src="/vsl/articles/stockfish/stock.jpg" alt=""></p>
+<p><a href="https://nl.wikipedia.org/wiki/Stockfish">Stockfish</a> is een gratis en opensource schaakengine, beschikbaar voor verschillende desktop- en mobiele platforms.</p>
+<p>Stockfish staat consequent bovenaan in de meeste beoordelingslijsten voor schaakengines en is sinds oktober 2022 de sterkste CPU-schaakengine ter wereld. De geschatte ELO-rating van Stockfish 19 is zo&rsquo;n 4050.
+(Weet dat de hoogste rating van Magnus Carlsen 2882 was - in augustus 2019)
+Het heeft het Top Chess Engine Championship 13 keer gewonnen en het Computer Chess Championship van Chess.com 19 keer.</p>
+    </div>
+    <a href="/vsl/articles/stockfish/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Artikelen</span>
+    
+      <time class="f6 db" datetime="2026-10-18T11:25:43+02:00">oktober 18, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/articles/svidler/" class="link black dim">
+        Peter Svidler
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.image hq720.jpg
+-->
+<p><img src="/vsl/articles/svidler/hq720.jpg" alt=""></p>
+<p><a href="https://nl.wikipedia.org/wiki/Pjotr_Svidler">Pjotr Svidler</a> werd 8x kampioen van Rusland, in 1994, 1995, 1997, 2003, 2008, 2011, 2013, 2017
+Het is moeilijk te appreciëren wat een prestatie dit is!</p>
+<p>Peter Svidler is een erudiet man, een uitstekend commentator: zijn gezamelijke partijbesprekingen met <a href="https://nl.wikipedia.org/wiki/Jan_Gustafsson">Jan Gustafsson</a> zijn legendarisch.</p>
+<p>Zijn duidelijke afkeuring van de Russische invasie van Oekraïne in 2022 maakte hem niet bepaald geliefd in Putin-kringen.</p>
+<!--
+.yt faJev7VEJm0
+-->
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/faJev7VEJm0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
+
+<p>Je kan de video ook bekijken op <a href="https://www.dropbox.com/scl/fi/ndb5a9s25t332rvdo6wtq/THIS_OR_THAT_things_to_do_with_Chess_Legend_Pete.mp4?rlkey=779f31s2lrh5aoiu8xgkaq0po&amp;dl=0">dropbox</a></p>
+    </div>
+    <a href="/vsl/articles/svidler/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+    </section>
+    
+		<ul class="pagination pagination-default">
+			<li class="page-item disabled">
+				<a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
+			</li>
+		<li class="page-item disabled">
+			<a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
+		</li>
+			<li class="page-item active">
+				<a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
+			</li>
+			<li class="page-item">
+				<a href="/vsl/articles/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+			</li>
+			<li class="page-item">
+				<a href="/vsl/articles/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
+			</li>
+			<li class="page-item">
+				<a href="/vsl/articles/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
+			</li>
+			<li class="page-item">
+				<a href="/vsl/articles/page/5/" aria-label="Page 5" class="page-link" role="button">5</a>
+			</li>
+		<li class="page-item">
+			<a href="/vsl/articles/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+		</li>
+			<li class="page-item">
+				<a href="/vsl/articles/page/7/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+			</li>
+		</ul></article>
+</main><footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/vsl/" >
+    &copy;  Vrijschaker Landegem 2026 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

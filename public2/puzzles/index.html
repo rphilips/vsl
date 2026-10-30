@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head><script src="/vsl/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=vsl/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Puzzels | Start</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="De laatste hobby die je ooit nodig hebt …">
+    <meta name="generator" content="Hugo 0.169.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    <link rel="stylesheet" href="/vsl/ananke/css/main.css">
+    <script>
+  (function () {
+    "use strict";
+
+    
+    
+    function revealButtons() {
+      var buttons = document.querySelectorAll(".code-block .code-copy[hidden]");
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].hidden = false;
+      }
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", revealButtons);
+    } else {
+      revealButtons();
+    }
+
+    function flash(button) {
+      var label = button.querySelector(".code-copy-label");
+      var previous = label ? label.textContent : null;
+      button.classList.add("is-copied");
+      if (label) label.textContent = "Copied";
+      window.setTimeout(function () {
+        button.classList.remove("is-copied");
+        if (label && previous !== null) label.textContent = previous;
+      }, 2000);
+    }
+
+    function legacyCopy(text) {
+      var area = document.createElement("textarea");
+      area.value = text;
+      area.setAttribute("readonly", "");
+      area.style.position = "absolute";
+      area.style.left = "-9999px";
+      document.body.appendChild(area);
+      area.select();
+      var ok = false;
+      try {
+        ok = document.execCommand("copy");
+      } catch (e) {
+        ok = false;
+      }
+      document.body.removeChild(area);
+      return ok;
+    }
+
+    function copyFrom(button) {
+      var container = button.closest(".code-block");
+      if (!container) return;
+      var pre = container.querySelector("pre");
+      if (!pre) return;
+      var source = pre.querySelector("code") || pre;
+      var text = source.innerText;
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(
+          function () { flash(button); },
+          function () { if (legacyCopy(text)) flash(button); }
+        );
+      } else if (legacyCopy(text)) {
+        flash(button);
+      }
+    }
+
+    document.addEventListener("click", function (event) {
+      var button = event.target.closest(".code-copy");
+      if (button) copyFrom(button);
+    });
+  })();
+</script>
+
+    
+      
+
+    
+
+    
+    
+      <link href="/vsl/puzzles/index.xml" rel="alternate" type="application/rss+xml" title="Start" />
+      <link href="/vsl/puzzles/index.xml" rel="feed" type="application/rss+xml" title="Start" />
+      
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/vsl/puzzles/">
+    
+
+    
+    
+    <meta property="og:url" content="http://localhost:1313/vsl/puzzles/">
+	<meta property="og:site_name" content="Start">
+	<meta property="og:title" content="Puzzels">
+	<meta property="og:description" content="De laatste hobby die je ooit nodig hebt …">
+	<meta property="og:locale" content="nl">
+	<meta property="og:type" content="website">
+
+	<meta itemprop="name" content="Puzzels">
+	<meta itemprop="description" content="De laatste hobby die je ooit nodig hebt …">
+	<meta itemprop="datePublished" content="2026-02-21T17:16:33+01:00">
+	<meta itemprop="dateModified" content="2026-02-21T17:16:33+01:00">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Puzzels">
+	<meta name="twitter:description" content="De laatste hobby die je ooit nodig hebt …">
+
+	
+  </head><body class="ma0 avenir bg-near-white development is-section is-section">
+
+  
+  
+  
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/vsl/images/puzzles.jpg');">
+    
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/vsl/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Start
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/overview/" title="Overzicht pagina">
+              Overzicht
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/sessions/" title="Sessies pagina">
+              Sessies
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/articles/" title="Artikelen pagina">
+              Artikelen
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/games/" title="Partijen pagina">
+              Partijen
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/puzzles/" title="Puzzels pagina">
+              Puzzels
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/rules/" title="Regels pagina">
+              Regels
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/about/" title="Betreft … pagina">
+              Betreft …
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/vsl/contact/" title="Contact pagina">
+              Contact
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
+          Puzzels
+        </h1>
+        
+      </div>
+    </div>
+  </header>
+
+<main class="pb7" role="main">
+  
+  
+
+  <article class="pa3 pa4-ns nested-copy-line-height">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links mid-gray"></section>
+    <section class="flex-ns mt5 flex-wrap justify-around">
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Puzzels</span>
+    
+      <time class="f6 db" datetime="2026-10-27T15:52:48+01:00">oktober 27, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/puzzles/rook2pawns/" class="link black dim">
+        Toren tegen 2 pionnen
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.diagram puzzle.pgn
+-->
+<div style='cursor:pointer' onclick='navigator.clipboard.writeText("8/5P2/P4K2/k7/8/8/8/r7 w - - 0 1"); return false'>
+<p><img src="/vsl/puzzles/rook2pawns/2e3d33a7bfc1bcc44e87e052b4579eb7.svg" alt=""></p>
+</div>
+<!--
+.yt wXFJSo4zI1k
+-->
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/wXFJSo4zI1k?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
+
+<p>Je kan de video ook bekijken op <a href="https://www.dropbox.com/scl/fi/9n6x9eb7u3n3hdq20qvtz/You_need_to_think_a_while_to_solve_this_one_wXFJ.mp4?rlkey=gwm895ckwvbsyzhq0mbgws21b&amp;dl=0">dropbox</a></p>
+<!--
+.game puzzle.pgn
+-->
+<!-- Game begin -->
+<link href="/vsl/js/lichess/pgn/lichess-pgn-viewer.css" type="text/css" rel="stylesheet" />
+<style>
+    body {
+         background: var(--demo-bg, #161512);
+      --board-color: #f1e14e;
+      margin: 0;
+    }
+</style>
+<div id="game" data-pgn="[Event &#34;?&#34;]&#10;[Site &#34;?&#34;]&#10;[Date &#34;2026.10.27&#34;]&#10;[Round &#34;?&#34;]&#10;[White &#34;White&#34;]&#10;[Black &#34;Black&#34;]&#10;[Result &#34;1-0&#34;]&#10;[SetUp &#34;1&#34;]&#10;[FEN &#34;8/5P2/P4K2/k7/8/8/8/r7 w - - 0 1&#34;]&#10;&#10;1.a7&#10;{Als de zwarte toren de laatste rij bereikt, wordt het remise: de toren slaat de pion die op f8 komt en zijn koning &#39;ontfermt&#39; zich over de andere pion. Dit betekent nog dat hij niet met zijn koning mag spelen: hij komt dan onder schaak te staan en kan nergens schuilen zonder zijn a-pion te verliezen.}&#10;Kb6 2.Ke5 (2.Ke6 Kc6&#10;{op deze wijze blijft de a-pion binnen bereik en met een tussenschaak komt de witte koning op dezelfde lijn als de gepromoveerde f-pion.}&#10;) 2...Re1+ 3.Kd6 Rd1+ 4.Ke7&#10;{Wit mag niet toelaten dat de toren op de laatste rij komt!} Re1+ 5.Kd8 Rd1+ 6.&#10;Kc8 Rc1+ 7.Kb8 Rf1 8.a8=Q Rxf7 9.Qa3&#10;{Enige zet maar ... voldoende voor de winst} 1-0&#10;&#10;&#10;">&#160;</div>
+<script type="module">
+    import { ViewPGN } from "/vsl/js/lichess/pgn/one.js";
+    ViewPGN("", "game");
+</script>
+<!-- Game end -->
+    </div>
+    <a href="/vsl/puzzles/rook2pawns/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Puzzels</span>
+    
+      <time class="f6 db" datetime="2026-10-27T15:30:33+01:00">oktober 27, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/puzzles/rookpawn3/" class="link black dim">
+        Torens, pionnen en koningen
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.diagram puzzle.pgn
+-->
+<div style='cursor:pointer' onclick='navigator.clipboard.writeText("2r5/6pp/1P2k3/8/8/8/6PP/1R5K w - - 0 1"); return false'>
+<p><img src="/vsl/puzzles/rookpawn3/2f70db02c3d9597967bbbb9c39aa6040.svg" alt=""></p>
+</div>
+<!--
+.yt x5-LXTvQK9M
+-->
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/x5-LXTvQK9M?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
+
+<p>Je kan de video ook bekijken op <a href="https://www.dropbox.com/scl/fi/7qq0wfk1sv8bryh7zcyxp/Solve_This_Hard_Chess_Puzzle_x5_LXTvQK9M.mp4?rlkey=fvcq8fu4eafbqmpoy8weocsg8&amp;dl=0">dropbox</a></p>
+<!--
+.game puzzle.pgn
+-->
+<!-- Game begin -->
+<link href="/vsl/js/lichess/pgn/lichess-pgn-viewer.css" type="text/css" rel="stylesheet" />
+<style>
+    body {
+         background: var(--demo-bg, #161512);
+      --board-color: #f1e14e;
+      margin: 0;
+    }
+</style>
+<div id="game" data-pgn="[Event &#34;?&#34;]&#10;[Site &#34;?&#34;]&#10;[Date &#34;2026.10.27&#34;]&#10;[Round &#34;?&#34;]&#10;[White &#34;White&#34;]&#10;[Black &#34;Black&#34;]&#10;[Result &#34;1-0&#34;]&#10;[SetUp &#34;1&#34;]&#10;[FEN &#34;2r5/6pp/1P2k3/8/8/8/6PP/1R5K w - - 0 1&#34;]&#10;&#10;1.g3&#10;{In deze stelling lijkt het wel of Zwart het nadeel van de min-pion kan compenseren door zijn actieve koning.&#10;&#10;Wit gaat precies moeten spelen om een kans te maken: het onmiddellijk opspelen van de pion werkt niet. De zwarte koning keert immers tijdig terug.}&#10;(1.b7 Rb8 2.g3 Kd6 3.Kg2 Kc7 4.Kf3 Rxb7 5.Rxb7+ Kxb7 6.Ke4 Kc7 7.Ke5 Kd7) 1...&#10;Rb8 2.Kg2 Kd6 3.Kf3 Kc6 4.Kg4 Rb7&#10;{Het slaan van de pion werkt niet: na de torenruil dringt Wit binnen.} 5.h4 Kd5&#10;6.Kg5 Ke5 7.h5 Kd4 8.g4 Ke5 9.h6 gxh6+ 10.Kxh6 Kd5 11.Rb5+ Ke4 12.Ra5 Kf4 13.g5&#10;Kg4 14.Rd5 Kf4 15.Rd6 Kg4 16.Rc6 Kf4 17.Kh5 Kg3 18.Rc7 Rxb6 19.Rxh7 Kf4 20.Rf7+&#10;Ke5 21.g6 Rb1 22.Kh6 Rh1+ 23.Kg7 Rg1 24.Kh7 Ra1 25.g7 Rh1+ 26.Kg8 Rc1 27.Rf3&#10;Rg1 28.Rh3 Kf6 29.Rh6+ Kf5 30.Kh8 Rxg7 1-0&#10;&#10;&#10;">&#160;</div>
+<script type="module">
+    import { ViewPGN } from "/vsl/js/lichess/pgn/one.js";
+    ViewPGN("", "game");
+</script>
+<!-- Game end -->
+    </div>
+    <a href="/vsl/puzzles/rookpawn3/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Puzzels</span>
+    
+      <time class="f6 db" datetime="2026-10-16T16:36:30+02:00">oktober 16, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/puzzles/sites/" class="link black dim">
+        Puzzel sites
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.diagram fen:r1bkq3/p5Q1/2P5/1p6/5b2/6P1/PPPP1P1P/RNB3K1 w - - 0 1
+-->
+<div style='cursor:pointer' onclick='navigator.clipboard.writeText("r1bkq3/p5Q1/2P5/1p6/5b2/6P1/PPPP1P1P/RNB3K1 w - - 0 1"); return false'>
+<p><img src="/vsl/puzzles/sites/ff1cf4c831345d4061467c997a855fd8.svg" alt=""></p>
+</div>
+<p>Schaakpuzzels oplossen is erg plezierig maar het is ook leerrijk!</p>
+<p>Het is een uitstekende methode om je schaakvisie te verbeteren.</p>
+<p>Het volgende lijstje bestaat uit een overzicht van uitmuntende websites met grote collecties aan schaakpuzzels. Sommige van deze sites zijn gratis, bij anderen is het voldoende om zich te laten registreren.</p>
+<p>Hoe het ook zij, denk steeds aan de opmerking van <a href="https://nl.wikipedia.org/wiki/Emanuel_Lasker">Emanuel Lasker (2e wereldkampioen)</a></p>
+    </div>
+    <a href="/vsl/puzzles/sites/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Puzzels</span>
+    
+      <time class="f6 db" datetime="2026-10-14T10:57:27+02:00">oktober 14, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/puzzles/retirook/" class="link black dim">
+        Toren tegen pion (3)
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.diagram reti.pgn
+-->
+<div style='cursor:pointer' onclick='navigator.clipboard.writeText("8/4K3/8/3pk3/3R4/8/8/8 w - - 0 1"); return false'>
+<p><img src="/vsl/puzzles/retirook/2e5fdb15f3331c9707dad51585ac9fd3.svg" alt=""></p>
+</div>
+<p>De eindspelstudies van <a href="https://nl.wikipedia.org/wiki/Rich%C3%A1rd_R%C3%A9ti">Richárd Réti</a> zijn legendarisch.</p>
+<p>In deze studie neemt een toren het op tegen een pion: een zach eitje zul je zeggen. Kenners weten wel beter: deze eindspelen kunnen buitengewoon moeilijk zijn en vormen de ideale training om diep zicht te krijgen in een positie.</p>
+<!--
+.yt GWecrPW0wkw
+-->
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/GWecrPW0wkw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
+
+<p>Je kan de video ook bekijken op <a href="https://www.dropbox.com/scl/fi/i6stngonmnvyaoixdezsw/Chess_Endgame_Rook_vs_Pawn_Reti_1928_GWecrPW0wkw.mp4?rlkey=adggzxtdr558iq0xbncwon68w&amp;dl=0">dropbox</a></p>
+    </div>
+    <a href="/vsl/puzzles/retirook/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Puzzels</span>
+    
+      <time class="f6 db" datetime="2026-10-03T17:05:38+02:00">oktober 3, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/puzzles/francis/" class="link black dim">
+        Diep kijken in een stelling
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.diagram fen:r5k1/3b2pp/2Nb4/1p1p1p2/5P2/1P1P2K1/2Q1P1PP/r7 b - - 0 1
+-->
+<div style='cursor:pointer' onclick='navigator.clipboard.writeText("r5k1/3b2pp/2Nb4/1p1p1p2/5P2/1P1P2K1/2Q1P1PP/r7 b - - 0 1"); return false'>
+<p><img src="/vsl/puzzles/francis/bc6b56a5fb97c1cad7daf2da016ad2e1.svg" alt=""></p>
+</div>
+<p>De sleutel tot het winnen van partijen tegen een gelijkwaardige tegenstander ligt hem in het <strong>diep</strong> kijken in de stelling: het vinden van kleine dingen die het verschil maken.</p>
+<p>De partij tegen Francis kampte heel erg. Totdat hij in tijdnood een fout maakte en twee torens moest geven tegen de Dame. Toch is het pleit verre van beslecht.</p>
+    </div>
+    <a href="/vsl/puzzles/francis/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Puzzels</span>
+    
+      <time class="f6 db" datetime="2026-09-29T13:23:49+02:00">september 29, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/puzzles/rookpawn2/" class="link black dim">
+        Toren tegen pion (2)
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>Eerste basisstelling</p>
+<!--
+.diagram fen:7R/8/8/8/8/2K5/8/2k5 b - - 0 1
+-->
+<div style='cursor:pointer' onclick='navigator.clipboard.writeText("7R/8/8/8/8/2K5/8/2k5 b - - 0 1"); return false'>
+<p><img src="/vsl/puzzles/rookpawn2/3e8d8850783661687c8ea63bdbcc727f.svg" alt=""></p>
+</div>
+<p>Zwart gaat deze partij verliezen maar kan voorlopig ontsnappen</p>
+<p>Tweede basisstelling</p>
+<!--
+.diagram fen:7R/8/8/8/8/1K6/8/k7 b - - 0 1
+-->
+<div style='cursor:pointer' onclick='navigator.clipboard.writeText("7R/8/8/8/8/1K6/8/k7 b - - 0 1"); return false'>
+<p><img src="/vsl/puzzles/rookpawn2/daa8139e8fed3c9f7c023cdf0d1808c3.svg" alt=""></p>
+</div>
+<p>Zwart kan niet ontsnappen: de volgende zet van Wit staat hij schaakmat</p>
+<p>Derde basisstelling</p>
+<!--
+.diagram fen:7R/8/8/8/8/2K5/8/1k6 w - - 0 1; arrow:b1a2
+-->
+<div style='cursor:pointer' onclick='navigator.clipboard.writeText("7R/8/8/8/8/2K5/8/1k6 w - - 0 1"); return false'>
+<p><img src="/vsl/puzzles/rookpawn2/9a9cdf8631769b7fd69826bf1ae6abd3.svg" alt=""></p>
+</div>
+    </div>
+    <a href="/vsl/puzzles/rookpawn2/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Puzzels</span>
+    
+      <time class="f6 db" datetime="2026-09-20T16:10:12+02:00">september 20, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/puzzles/rookpion1/" class="link black dim">
+        Toren tegen pion (1): de Saavedra positie
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>Eindspelen van een toren tegen pion zijn vanzelfsprekend meestal gewonnen voor de toren. Toch zijn er heel wat situaties waar dit niet zo vanzelfsprekend is.</p>
+<p>De bekendste van deze eindspelen is ongetwijfeld de <a href="https://nl.wikipedia.org/wiki/Saavedra-positie">Saavedra positie</a></p>
+<!--
+.diagram puzzle.pgn
+-->
+<div style='cursor:pointer' onclick='navigator.clipboard.writeText("8/8/1KP5/3r4/8/8/8/k7 w - - 0 1"); return false'>
+<p><img src="/vsl/puzzles/rookpion1/1650c2354572a094aeba50b68731e286.svg" alt=""></p>
+</div>
+<!--
+.yt WIlM2JOb7dU
+-->
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/WIlM2JOb7dU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
+
+<p>Je kan de video ook bekijken op <a href="https://www.dropbox.com/scl/fi/tlufa5626vikj2sp57og3/Brilliant_endgame_tactics_in_the_Saavedra_positi.mp4?rlkey=dnfbjne79wzd7o8w80dtnle0i&amp;dl=0">dropbox</a></p>
+    </div>
+    <a href="/vsl/puzzles/rookpion1/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Puzzels</span>
+    
+      <time class="f6 db" datetime="2026-08-30T18:56:37+02:00">augustus 30, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/puzzles/samloyd2/" class="link black dim">
+        Sam Loyd (2)
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>De puzzels van Sam Loyd zijn net altijd wat anders: deze puzzel toont een eigenaardig geometrisch patroon.</p>
+<!--
+.diagram puzzle.pgn
+-->
+<div style='cursor:pointer' onclick='navigator.clipboard.writeText("8/8/K1p1p1p1/P1p1P1p1/P1p1k1p1/P1B1P1p1/P1R1P1N1/8 w - - 0 1"); return false'>
+<p><img src="/vsl/puzzles/samloyd2/1ceb2938d520bd6168922e69beefe1f2.svg" alt=""></p>
+</div>
+<!--
+.yt igR5xUpJ1A4
+-->
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/igR5xUpJ1A4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
+
+<p>Je kan de video ook bekijken op <a href="https://www.dropbox.com/scl/fi/wyi6x2ifs5g1h0l4yupb9/A_Crazy_Chess_Puzzle_With_Pieces_Lined_Up_On_Par.mp4?rlkey=8nwnjjlri1tinwji320qyoeqk&amp;dl=0">dropbox</a></p>
+<!--
+.puzzle puzzle.pgn
+-->
+<p>(Je kan de partij <a href="puzzle.pgn">hier</a> downloaden in PGN formaat)</p>
+    </div>
+    <a href="/vsl/puzzles/samloyd2/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Puzzels</span>
+    
+      <time class="f6 db" datetime="2026-08-23T16:33:03+02:00">augustus 23, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/puzzles/kasparyan/" class="link black dim">
+        Genrikh Kasparyan
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>Uit <a href="https://en.wikipedia.org/wiki/Genrikh_Kasparyan">Wikipedia</a>:</p>
+<i>
+"""
+Genrikh Kasparyan (Surname also spelled Kasparian) (27 February 1910 – 27 December 1995) was an Armenian chess player. He is considered to have been one of the greatest composers of chess endgame studies.
+"""
+</i>
+<!--
+.diagram puzzle.pgn
+-->
+<div style='cursor:pointer' onclick='navigator.clipboard.writeText("2B3K1/8/3N1p1p/6pk/5P1P/6P1/7r/5r2 w - - 0 1"); return false'>
+<p><img src="/vsl/puzzles/kasparyan/2b00967ab04d4d2b2249c1d1593536c4.svg" alt=""></p>
+</div>
+<!--
+.yt 2dkesRnWS58
+-->
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/2dkesRnWS58?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
+
+<p>Je kan de video ook bekijken op <a href="https://www.dropbox.com/scl/fi/bug26u43dw8im6poo8ef2/This_is_Brilliant_Genrikh_Kasparyan_chess_endgam.mp4?rlkey=h0af94fndcdac9h5357wme43q&amp;dl=0">dropbox</a></p>
+    </div>
+    <a href="/vsl/puzzles/kasparyan/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Puzzels</span>
+    
+      <time class="f6 db" datetime="2026-08-11T17:20:50+02:00">augustus 11, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/vsl/puzzles/rvq5/" class="link black dim">
+        Torens versus Dame studies (5)
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <!--
+.image castle.jpg
+-->
+<p><img src="/vsl/puzzles/rvq5/castle.jpg" alt=""></p>
+<p><a href="https://www.reisroutes.be/blog/loirevallei/mooiste-kastelen-loire/">Château de Villandry</a></p>
+<p>Een plek vol geschiedenis</p>
+<p>Het oorspronkelijke fort van Villandry werd al in de veertiende eeuw gebouwd door koning Filip II tegen de flank van een heuvel. Een lokale nobelman kocht het gebouw in de zestiende eeuw en liet een nog groter fort en een slotgracht aanleggen. Tijdens de Franse Revolutie werd het kasteel door de staat overgenomen en even later schonk keizer Napoleon het kasteel aan zijn broer Jérôme Bonaparte.</p>
+    </div>
+    <a href="/vsl/puzzles/rvq5/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">meer lezen</a>
+  </div>
+</div>
+
+        </div>
+      
+    </section>
+    
+		<ul class="pagination pagination-default">
+			<li class="page-item disabled">
+				<a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
+			</li>
+		<li class="page-item disabled">
+			<a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
+		</li>
+			<li class="page-item active">
+				<a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
+			</li>
+			<li class="page-item">
+				<a href="/vsl/puzzles/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+			</li>
+			<li class="page-item">
+				<a href="/vsl/puzzles/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
+			</li>
+			<li class="page-item">
+				<a href="/vsl/puzzles/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
+			</li>
+		<li class="page-item">
+			<a href="/vsl/puzzles/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+		</li>
+			<li class="page-item">
+				<a href="/vsl/puzzles/page/4/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+			</li>
+		</ul></article>
+</main><footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/vsl/" >
+    &copy;  Vrijschaker Landegem 2026 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://rphilips.github.io/vsl/overview/</loc>
-    <lastmod>2026-10-30T10:57:46+01:00</lastmod>
+    <lastmod>2026-10-30T15:36:03+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -39,6 +39,16 @@
   </url><url>
     <loc>https://rphilips.github.io/vsl/contact/</loc>
     <lastmod>2026-02-21T16:32:03+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://rphilips.github.io/vsl/sessions/2026-11-02/</loc>
+    <lastmod>2026-10-30T15:23:30+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://rphilips.github.io/vsl/articles/kasparovtrains/</loc>
+    <lastmod>2026-10-30T15:13:56+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
