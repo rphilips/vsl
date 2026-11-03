@@ -1,10 +1,26 @@
 +++
-date = '2026-10-30T15:36:03+01:00'
+date = '2026-11-03T16:10:56+01:00'
 title = 'Overzicht'
 featured_image = '/images/overview.jpg'
 weight = 10
 +++
 
+
+
+<h2>November 2026</h2>
+
+<!--
+.link articles/nimzovitsch/index.md
+-->
+[Aron Nimzowitsch]({{< relref "/articles/nimzovitsch/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("articles/nimzovitsch/index.md");'>(artikel)</span>
+<!--
+.link games/johnernimzovitsch/index.md
+-->
+[A Game that Shocked the Chess World. Johner vs Nimzowitsch]({{< relref "/games/johnernimzovitsch/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("games/johnernimzovitsch/index.md");'>(partij)</span>
+<!--
+.link articles/nunn/index.md
+-->
+[John Nunn]({{< relref "/articles/nunn/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("articles/nunn/index.md");'>(artikel)</span>
 
 
 <h2>Oktober 2026</h2>
@@ -294,6 +310,10 @@ weight = 10
 -->
 [Niet de beste vrienden]({{< relref "/games/vete/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("games/vete/index.md");'>(partij)</span>
 <!--
+.link puzzles/rqv7/index.md
+-->
+[Torens versus Dame studies (7)]({{< relref "/puzzles/rqv7/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("puzzles/rqv7/index.md");'>(puzzel)</span>
+<!--
 .link puzzles/rvq5/index.md
 -->
 [Torens versus Dame studies (5)]({{< relref "/puzzles/rvq5/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("puzzles/rvq5/index.md");'>(puzzel)</span>
@@ -301,10 +321,6 @@ weight = 10
 .link puzzles/rvq6/index.md
 -->
 [Torens versus Dame studies (6)]({{< relref "/puzzles/rvq6/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("puzzles/rvq6/index.md");'>(puzzel)</span>
-<!--
-.link puzzles/rqv7/index.md
--->
-[Torens versus Dame studies (7)]({{< relref "/puzzles/rqv7/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("puzzles/rqv7/index.md");'>(puzzel)</span>
 <!--
 .link games/tworooksacrifice/index.md
 -->
@@ -386,10 +402,6 @@ weight = 10
 -->
 [Jan Timman]({{< relref "/articles/timman/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("articles/timman/index.md");'>(artikel)</span>
 <!--
-.link articles/triangulatie/index.md
--->
-[Triangulatie]({{< relref "/articles/triangulatie/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("articles/triangulatie/index.md");'>(artikel)</span>
-<!--
 .link games/group10/index.md
 -->
 [OKRA Eke tegen een sterke tegenstander]({{< relref "/games/group10/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("games/group10/index.md");'>(partij)</span>
@@ -406,13 +418,13 @@ weight = 10
 -->
 [Underpromotion]({{< relref "/articles/underpromotion/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("articles/underpromotion/index.md");'>(artikel)</span>
 <!--
-.link articles/carlsengood2/index.md
--->
-[Waarom speelt Carlsen zo sterk? (deel 2)]({{< relref "/articles/carlsengood2/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("articles/carlsengood2/index.md");'>(artikel)</span>
-<!--
 .link articles/carlsengood1/index.md
 -->
 [Waarom speelt Carlsen zo sterk? (deel 1)]({{< relref "/articles/carlsengood1/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("articles/carlsengood1/index.md");'>(artikel)</span>
+<!--
+.link articles/carlsengood2/index.md
+-->
+[Waarom speelt Carlsen zo sterk? (deel 2)]({{< relref "/articles/carlsengood2/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("articles/carlsengood2/index.md");'>(artikel)</span>
 <!--
 .link games/einsteinoppenheimer/index.md
 -->
