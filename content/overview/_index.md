@@ -1,5 +1,5 @@
 +++
-date = '2026-11-10T12:14:05+01:00'
+date = '2026-11-12T15:38:03+01:00'
 title = 'Overzicht'
 featured_image = '/images/overview.jpg'
 weight = 10
@@ -9,6 +9,10 @@ weight = 10
 
 <h2>November 2026</h2>
 
+<!--
+.link articles/oordeelplan/index.md
+-->
+[Oordeel en plan: de strategie van het schaakspel]({{< relref "/articles/oordeelplan/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("articles/oordeelplan/index.md");'>(artikel)</span>
 <!--
 .link articles/gm/index.md
 -->
