@@ -21,6 +21,10 @@ weight = 9223372036638040699
 -->
 - [Schaakkampioenen]({{< relref "/articles/champions/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("articles/champions/index.md");'>(artikel)</span>
 <!--
+- .link articles/groot/index.md
+-->
+- [Adriaan De Groot]({{< relref "/articles/groot/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("articles/groot/index.md");'>(artikel)</span>
+<!--
 - .link articles/puzzleswhy/index.md
 -->
 - [Oplossen van puzzels]({{< relref "/articles/puzzleswhy/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("articles/puzzleswhy/index.md");'>(artikel)</span>

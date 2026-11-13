@@ -1,5 +1,5 @@
 +++
-date = '2026-11-13T15:06:07+01:00'
+date = '2026-11-13T15:37:55+01:00'
 title = 'Overzicht'
 featured_image = '/images/overview.jpg'
 weight = 10
@@ -9,6 +9,10 @@ weight = 10
 
 <h2>November 2026</h2>
 
+<!--
+.link articles/groot/index.md
+-->
+[Adriaan De Groot]({{< relref "/articles/groot/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("articles/groot/index.md");'>(artikel)</span>
 <!--
 .link articles/puzzleswhy/index.md
 -->
