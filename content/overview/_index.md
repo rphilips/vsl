@@ -1,5 +1,5 @@
 +++
-date = '2026-11-13T14:21:06+01:00'
+date = '2026-11-13T15:06:07+01:00'
 title = 'Overzicht'
 featured_image = '/images/overview.jpg'
 weight = 10
@@ -9,6 +9,10 @@ weight = 10
 
 <h2>November 2026</h2>
 
+<!--
+.link articles/puzzleswhy/index.md
+-->
+[Oplossen van puzzels]({{< relref "/articles/puzzleswhy/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("articles/puzzleswhy/index.md");'>(artikel)</span>
 <!--
 .link sessions/2026-11-16/index.md
 -->
