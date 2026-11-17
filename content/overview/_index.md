@@ -1,5 +1,5 @@
 +++
-date = '2026-11-16T09:51:00+01:00'
+date = '2026-11-17T13:30:42+01:00'
 title = 'Overzicht'
 featured_image = '/images/overview.jpg'
 weight = 10
