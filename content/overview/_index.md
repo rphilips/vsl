@@ -1,5 +1,5 @@
 +++
-date = '2026-11-17T13:30:42+01:00'
+date = '2026-11-23T18:14:25+01:00'
 title = 'Overzicht'
 featured_image = '/images/overview.jpg'
 weight = 10
@@ -9,6 +9,10 @@ weight = 10
 
 <h2>November 2026</h2>
 
+<!--
+.link articles/husband/index.md
+-->
+[Spelen tegen uw echtgeno(o)t(e)]({{< relref "/articles/husband/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("articles/husband/index.md");'>(artikel)</span>
 <!--
 .link puzzles/marco/index.md
 -->
