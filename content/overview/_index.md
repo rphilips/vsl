@@ -1,5 +1,5 @@
 +++
-date = '2026-11-23T18:14:25+01:00'
+date = '2026-11-24T12:09:12+01:00'
 title = 'Overzicht'
 featured_image = '/images/overview.jpg'
 weight = 10
@@ -9,6 +9,10 @@ weight = 10
 
 <h2>November 2026</h2>
 
+<!--
+.link puzzles/matin1/index.md
+-->
+[Mat in 1]({{< relref "/puzzles/matin1/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("puzzles/matin1/index.md");'>(puzzel)</span>
 <!--
 .link articles/husband/index.md
 -->
@@ -377,10 +381,6 @@ weight = 10
 .link puzzles/rqv7/index.md
 -->
 [Torens versus Dame studies (7)]({{< relref "/puzzles/rqv7/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("puzzles/rqv7/index.md");'>(puzzel)</span>
-<!--
-.link puzzles/rvq6/index.md
--->
-[Torens versus Dame studies (6)]({{< relref "/puzzles/rvq6/index.md">}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("puzzles/rvq6/index.md");'>(puzzel)</span>
 <!--
 .link puzzles/rvq5/index.md
 -->

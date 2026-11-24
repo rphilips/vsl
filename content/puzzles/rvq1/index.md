@@ -42,7 +42,7 @@ Je kan de video ook bekijken op [dropbox](https://www.dropbox.com/scl/fi/3waejm3
 <p>(Je kan de partij <a href="puzzle.pgn">hier</a> downloaden in PGN formaat)</p><div id="board">&#160;</div>
 
 <script src="/js/pgnviewer.js"></script>
-<script src="https://rphilips.github.io/okra/js/pgnviewer.js"></script>
+<script src="https://rphilips.github.io/vsl/js/pgnviewer.js"></script>
 <style>
 san   {color: black;}
 </style>
