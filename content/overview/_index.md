@@ -1,5 +1,5 @@
 +++
-date = '2026-11-26T16:54:28+01:00'
+date = '2026-11-27T13:21:36+01:00'
 title = 'Overzicht'
 featured_image = '/images/overview.jpg'
 weight = 10
@@ -9,6 +9,14 @@ weight = 10
 
 <h2>November 2026</h2>
 
+<!--
+.link sessions/2026-11-30/index.md
+-->
+[Schaken op 27-11-2026: Les 4]({{% relref "/sessions/2026-11-30/index.md" %}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("sessions/2026-11-30/index.md");'>(sessie)</span>
+<!--
+.link articles/wc123/index.md
+-->
+[Wereldkampioenschap 2026: eerste rustdag]({{% relref "/articles/wc123/index.md" %}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("articles/wc123/index.md");'>(artikel)</span>
 <!--
 .link articles/positionalplay/index.md
 -->
@@ -398,10 +406,6 @@ weight = 10
 -->
 [Niet de beste vrienden]({{% relref "/games/vete/index.md" %}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("games/vete/index.md");'>(partij)</span>
 <!--
-.link puzzles/rvq6/index.md
--->
-[Torens versus Dame studies (6)]({{% relref "/puzzles/rvq6/index.md" %}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("puzzles/rvq6/index.md");'>(puzzel)</span>
-<!--
 .link puzzles/rqv7/index.md
 -->
 [Torens versus Dame studies (7)]({{% relref "/puzzles/rqv7/index.md" %}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("puzzles/rqv7/index.md");'>(puzzel)</span>
@@ -409,6 +413,10 @@ weight = 10
 .link puzzles/rvq5/index.md
 -->
 [Torens versus Dame studies (5)]({{% relref "/puzzles/rvq5/index.md" %}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("puzzles/rvq5/index.md");'>(puzzel)</span>
+<!--
+.link puzzles/rvq6/index.md
+-->
+[Torens versus Dame studies (6)]({{% relref "/puzzles/rvq6/index.md" %}}) <span style='font-size: smaller;cursor: pointer' onclick='navigator.clipboard.writeText("puzzles/rvq6/index.md");'>(puzzel)</span>
 <!--
 .link games/tworooksacrifice/index.md
 -->
